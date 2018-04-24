@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDD1C7703EBE84DA7D10234 /* libPods-AutoCalculationCellHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1193BB6EA6E5A727869C628E /* libPods-AutoCalculationCellHeight.a */; };
+		285E42A2208F18C0007DF786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E42A1208F18C0007DF786 /* AppDelegate.m */; };
+		285E42A5208F18C0007DF786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E42A4208F18C0007DF786 /* ViewController.m */; };
+		285E42A8208F18C0007DF786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285E42A6208F18C0007DF786 /* Main.storyboard */; };
+		285E42AA208F18C7007DF786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285E42A9208F18C7007DF786 /* Assets.xcassets */; };
+		285E42AD208F18C7007DF786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285E42AB208F18C7007DF786 /* LaunchScreen.storyboard */; };
+		285E42B0208F18C7007DF786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E42AF208F18C7007DF786 /* main.m */; };
+		285E42BA208F1C6E007DF786 /* MM_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E42B9208F1C6E007DF786 /* MM_Cell.m */; };
+		285E42BD208F1C7F007DF786 /* MM_CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E42BC208F1C7F007DF786 /* MM_CellModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1193BB6EA6E5A727869C628E /* libPods-AutoCalculationCellHeight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoCalculationCellHeight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285E429D208F18C0007DF786 /* AutoCalculationCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCalculationCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285E42A0208F18C0007DF786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		285E42A1208F18C0007DF786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		285E42A3208F18C0007DF786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		285E42A4208F18C0007DF786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		285E42A7208F18C0007DF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		285E42A9208F18C7007DF786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285E42AC208F18C7007DF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		285E42AE208F18C7007DF786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285E42AF208F18C7007DF786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		285E42B8208F1C6E007DF786 /* MM_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MM_Cell.h; sourceTree = "<group>"; };
+		285E42B9208F1C6E007DF786 /* MM_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MM_Cell.m; sourceTree = "<group>"; };
+		285E42BB208F1C7F007DF786 /* MM_CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MM_CellModel.h; sourceTree = "<group>"; };
+		285E42BC208F1C7F007DF786 /* MM_CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MM_CellModel.m; sourceTree = "<group>"; };
+		5C32C0F6E14C421206B893BF /* Pods-AutoCalculationCellHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCalculationCellHeight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoCalculationCellHeight/Pods-AutoCalculationCellHeight.debug.xcconfig"; sourceTree = "<group>"; };
+		A089319E1013A7A0A7A93B81 /* Pods-AutoCalculationCellHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCalculationCellHeight.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoCalculationCellHeight/Pods-AutoCalculationCellHeight.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285E429A208F18C0007DF786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDD1C7703EBE84DA7D10234 /* libPods-AutoCalculationCellHeight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1714A2E4DA0BE595E81FE343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C32C0F6E14C421206B893BF /* Pods-AutoCalculationCellHeight.debug.xcconfig */,
+				A089319E1013A7A0A7A93B81 /* Pods-AutoCalculationCellHeight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		285E4294208F18C0007DF786 = {
+			isa = PBXGroup;
+			children = (
+				285E429F208F18C0007DF786 /* AutoCalculationCellHeight */,
+				285E429E208F18C0007DF786 /* Products */,
+				1714A2E4DA0BE595E81FE343 /* Pods */,
+				62A7A48460A5485FA9F605FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		285E429E208F18C0007DF786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285E429D208F18C0007DF786 /* AutoCalculationCellHeight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285E429F208F18C0007DF786 /* AutoCalculationCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				285E42B6208F1C44007DF786 /* Model */,
+				285E42B7208F1C44007DF786 /* View */,
+				285E42A0208F18C0007DF786 /* AppDelegate.h */,
+				285E42A1208F18C0007DF786 /* AppDelegate.m */,
+				285E42A3208F18C0007DF786 /* ViewController.h */,
+				285E42A4208F18C0007DF786 /* ViewController.m */,
+				285E42A6208F18C0007DF786 /* Main.storyboard */,
+				285E42A9208F18C7007DF786 /* Assets.xcassets */,
+				285E42AB208F18C7007DF786 /* LaunchScreen.storyboard */,
+				285E42AE208F18C7007DF786 /* Info.plist */,
+				285E42AF208F18C7007DF786 /* main.m */,
+			);
+			path = AutoCalculationCellHeight;
+			sourceTree = "<group>";
+		};
+		285E42B6208F1C44007DF786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				285E42BB208F1C7F007DF786 /* MM_CellModel.h */,
+				285E42BC208F1C7F007DF786 /* MM_CellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		285E42B7208F1C44007DF786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				285E42B8208F1C6E007DF786 /* MM_Cell.h */,
+				285E42B9208F1C6E007DF786 /* MM_Cell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62A7A48460A5485FA9F605FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1193BB6EA6E5A727869C628E /* libPods-AutoCalculationCellHeight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285E429C208F18C0007DF786 /* AutoCalculationCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285E42B3208F18C7007DF786 /* Build configuration list for PBXNativeTarget "AutoCalculationCellHeight" */;
+			buildPhases = (
+				4AD3FF7A3251BAD20AC9B816 /* [CP] Check Pods Manifest.lock */,
+				285E4299208F18C0007DF786 /* Sources */,
+				285E429A208F18C0007DF786 /* Frameworks */,
+				285E429B208F18C0007DF786 /* Resources */,
+				F90A9015926B04A91CD222D8 /* [CP] Embed Pods Frameworks */,
+				13BDDC59728B6B763146E462 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCalculationCellHeight;
+			productName = AutoCalculationCellHeight;
+			productReference = 285E429D208F18C0007DF786 /* AutoCalculationCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285E4295208F18C0007DF786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mqhong;
+				TargetAttributes = {
+					285E429C208F18C0007DF786 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 285E4298208F18C0007DF786 /* Build configuration list for PBXProject "AutoCalculationCellHeight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285E4294208F18C0007DF786;
+			productRefGroup = 285E429E208F18C0007DF786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285E429C208F18C0007DF786 /* AutoCalculationCellHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285E429B208F18C0007DF786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285E42AD208F18C7007DF786 /* LaunchScreen.storyboard in Resources */,
+				285E42AA208F18C7007DF786 /* Assets.xcassets in Resources */,
+				285E42A8208F18C0007DF786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BDDC59728B6B763146E462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoCalculationCellHeight/Pods-AutoCalculationCellHeight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD3FF7A3251BAD20AC9B816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoCalculationCellHeight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90A9015926B04A91CD222D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoCalculationCellHeight/Pods-AutoCalculationCellHeight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285E4299208F18C0007DF786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285E42A5208F18C0007DF786 /* ViewController.m in Sources */,
+				285E42BA208F1C6E007DF786 /* MM_Cell.m in Sources */,
+				285E42B0208F18C7007DF786 /* main.m in Sources */,
+				285E42BD208F1C7F007DF786 /* MM_CellModel.m in Sources */,
+				285E42A2208F18C0007DF786 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		285E42A6208F18C0007DF786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285E42A7208F18C0007DF786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		285E42AB208F18C7007DF786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285E42AC208F18C7007DF786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285E42B1208F18C7007DF786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		285E42B2208F18C7007DF786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285E42B4208F18C7007DF786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C32C0F6E14C421206B893BF /* Pods-AutoCalculationCellHeight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoCalculationCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = socialcredits.AutoCalculationCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		285E42B5208F18C7007DF786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A089319E1013A7A0A7A93B81 /* Pods-AutoCalculationCellHeight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutoCalculationCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = socialcredits.AutoCalculationCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285E4298208F18C0007DF786 /* Build configuration list for PBXProject "AutoCalculationCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285E42B1208F18C7007DF786 /* Debug */,
+				285E42B2208F18C7007DF786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285E42B3208F18C7007DF786 /* Build configuration list for PBXNativeTarget "AutoCalculationCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285E42B4208F18C7007DF786 /* Debug */,
+				285E42B5208F18C7007DF786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285E4295208F18C0007DF786 /* Project object */;
+}
