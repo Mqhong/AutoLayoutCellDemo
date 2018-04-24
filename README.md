@@ -1,0 +1,2 @@
+# AutoLayoutCellDemo
+Use UITableView+FDTemplateLayoutCell
